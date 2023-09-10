@@ -1,0 +1,1428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+
+/* ======= NAVBAR CSS START ======= */
+/* ======= NAVBAR CSS START ======= */
+/* ======= NAVBAR CSS START ======= */
+/* ======= NAVBAR CSS START ======= */
+/* ======= NAVBAR CSS START ======= */
+
+.navbar{
+    opacity: 0.5;
+    background: #160C6D;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 34px;
+    padding-left: 34px;
+    color: #EFF4FA;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #1BBF00;
+    transition: all linear 0.4s;
+}
+
+.navbar-nav .nav-item:first-child .nav-link{
+    padding-left: 0px;
+}
+
+.navbar-nav .nav-item:last-child .nav-link{
+    padding-right: 0px;
+}
+
+.navbar-btn button{
+    width: 151px;
+    height: 64px;
+    background: #1BBF00;
+    border-radius: 100px;
+    border: none;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all linear 0.4s;
+
+    /* pdding দেওয়ার পর solid font সাইজ px দিলে বাটন নড়াচড়া করে */
+}
+
+.navbar-btn button:hover{
+    background: none;
+    color: #ffffff;
+    border: 3px solid #bfbaf5;
+}
+/* ======= NAVBAR CSS END ========= */
+/* ======= NAVBAR CSS END ========= */
+
+
+
+
+
+/* ======= BANNER CSS START ======= */
+/* ======= BANNER CSS START ======= */
+/* ======= BANNER CSS START ======= */
+/* ======= BANNER CSS START ======= */
+/* ======= BANNER CSS START ======= */
+
+#banner{
+    background: url(../Images/banner\ \(main\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 242px;
+    padding-bottom: 254px;
+    position: relative;
+    z-index: 1;
+}
+
+#banner::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(68, 53, 231, 0.7);
+    z-index: -1;
+}
+
+/* ################################################## */
+
+.banner-text h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 84px;
+    color: #FAFAFE;
+    line-height: 100px;
+}
+
+.banner-text p{
+    color: #E6E5F3;
+    text-align: center;
+    font-family: Paprika;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    width: 715px;
+    margin: 0 auto;
+}
+
+/* ################################################## */
+
+#banner .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#banner .buttons .button-one button{
+    width: 232px;
+    height: 64px;
+    background: #1BBF00;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 100px;
+    transition: all linear 0.4s;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-right: 28px;
+
+    /* pdding দেওয়ার পর solid font সাইজ px দিলে বাটন নড়াচড়া করে */
+}
+
+#banner .buttons .button-one button:hover{
+    background: none;
+    color: #ffffff;   
+    border: 3px solid #bfbaf5;
+}
+
+#banner .buttons .button-two button{
+    width: 195px;
+    height: 64px;
+    background: #1BBF00;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 100px;
+    transition: all linear 0.4s;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 24px;
+
+    /* pdding দেওয়ার পর solid font সাইজ px দিলে বাটন নড়াচড়া করে */
+}
+
+#banner .buttons .button-two button:hover{
+    background: none;
+    color: #ffffff;
+    border: 3px solid #bfbaf5;
+}
+
+/* ################################################## */
+
+
+/* ======= BANNER CSS END ========= */
+/* ======= BANNER CSS END ========= */
+
+
+
+
+
+/* ======= COUNTER CSS START ======= */
+/* ======= COUNTER CSS START ======= */
+/* ======= COUNTER CSS START ======= */
+/* ======= COUNTER CSS START ======= */
+/* ======= COUNTER CSS START ======= */
+
+#counter{
+    /* background: url(../Images/counter\ side\ img.png); */
+    padding: 282px 0;
+    position: relative;
+}
+
+.counter-text-one{
+    border-right: 4px solid #4F585F;
+}
+
+.counter-text-one h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    color: #1BBF00;
+    padding-bottom: 24px;
+}
+
+.counter-text-one p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #141135;
+    text-transform: capitalize;
+}
+
+/* ################################################## */
+
+.counter-text-two{
+    border-right: 4px solid #4F585F;
+}
+
+.counter-text-two h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    color: #1BBF00;
+    padding-bottom: 24px;
+}
+
+.counter-text-two p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #141135;
+    text-transform: capitalize;
+}
+
+/* ################################################## */
+
+.counter-text-three{
+    border-right: 4px solid #4F585F;
+}
+
+.counter-text-three h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    color: #1BBF00;
+    padding-bottom: 24px;
+}
+
+.counter-text-three p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #141135;
+    text-transform: capitalize;
+}
+
+/* ################################################## */
+
+
+
+.counter-text-four h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    color: #1BBF00;
+    padding-bottom: 24px;
+}
+
+.counter-text-four p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #141135;
+    text-transform: capitalize;
+}
+
+/* ################################################## */
+
+.counter-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.third-side-img{
+    position: absolute;
+    top: 700px;
+    left: 0;
+}
+
+/* ################################################## */
+/* ======= COUNTER CSS END ========= */
+/* ======= COUNTER CSS END ========= */
+
+
+
+
+
+/* ======= CHOOSE CSS START ======= */
+/* ======= CHOOSE CSS START ======= */
+/* ======= CHOOSE CSS START ======= */
+/* ======= CHOOSE CSS START ======= */
+/* ======= CHOOSE CSS START ======= */
+
+#choose-us{
+    width: 100%;
+    height: 500px;
+    /* padding-top: 100px;
+    padding-bottom: 90px; */
+}  
+
+/* ################################################## */
+
+.solve{
+    display: flex;
+    position: relative;
+    padding-left: 28px;
+}
+
+.solve:hover{
+    box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.50);
+    border-radius: 12px;
+    background: #ffffff;
+    padding: 42px 140px 42px 28px;
+    width: 568px;
+    height: 144px;
+}
+
+.solve-icon{
+    width: 25px;
+    height: 25px;
+    background: #1BBF00;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 37px;
+}
+
+.solve-icon::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 12px;
+    width: 25px;
+    height: 25px;
+    background: #CBC8F0;
+    border-radius: 50%;
+}
+
+/* ################################################## */
+
+.solve p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    color: #726E9E;
+    width: 319px;
+    line-height: 30px;
+}
+
+/* ################################################## */
+
+.choose-text {
+    padding-left: 303px;
+}
+
+.choose-text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #141135;
+    width: 370px;
+    padding-bottom: 10px;
+    line-height: 40px
+}
+
+.choose-text p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    color: #726E9E;
+    width: 390px;
+    padding-bottom: 30px;
+    line-height: 30px
+}
+
+/* ################################################## */
+
+.choose-text button{
+    /* padding: 20px 40px; */
+    /* pdding দেওয়ার পর solid font সাইজ px দিলে বাটন নড়াচড়া করে */
+
+    background: #1BBF00;
+    border-radius: 100px;
+    border: none;
+    color: #F9F9F9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    width: 190px;
+    height: 64px;
+    transition: all linear 0.4s;
+}
+
+.choose-text button:hover{
+    background: none;
+    color: #160C6D;
+    border: 3px solid #bfbaf5;
+}
+
+/* ======= CHOOSE CSS END ========= */
+/* ======= CHOOSE CSS END ========= */
+
+
+
+
+
+/* ======= SERVICE CSS START ======= */
+/* ======= SERVICE CSS START ======= */
+/* ======= SERVICE CSS START ======= */
+/* ======= SERVICE CSS START ======= */
+/* ======= SERVICE CSS START ======= */
+
+#service-part{
+    background: #F6F5FF;
+    padding: 100px 0;
+}
+
+/* ################################################## */
+
+
+
+#service-part .service-info h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #141135;
+    line-height: 56px;
+    width: 293px;
+    padding-bottom: 20px;
+}
+
+#service-part .service-info p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #6C7D93;
+    line-height: 32px;
+    width: 360px;
+    padding-right: 55px;
+    padding-bottom: 56px;
+}
+
+#service-part .service-info button{
+    width: 190px;
+    height: 65px;
+    background: #1BBF00;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 100px;
+    transition: all linear 0.4s;
+}
+
+#service-part .service-info button:hover{
+    background: none;
+    color: #160C6D;
+    border: 3px solid #bfbaf5;
+}
+
+
+/* ################################################## */
+
+#service-part .web-design-and-dev{
+    padding: 48px 51px;
+    background:#fff;
+    border-radius: 20px;
+    transition: all linear 0.4s;
+}
+
+#service-part .web-design-and-dev:hover{
+    box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.1);
+    background: #6B62C5;
+    border-radius: 20px;
+}
+
+/* ################################################## */
+
+#service-part .web-design-and-dev .web-design-headline h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #141135;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    transition: all linear 0.4s;
+}
+
+#service-part .web-design-and-dev:hover .web-design-headline h4{
+    color: #FAFAFE;
+}
+
+/* ################################################## */
+
+#service-part .web-design-and-dev .web-design-paragraph p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    width: 245px;
+    line-height: 30px;
+    color: #726E9E;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    transition: all linear 0.4s;
+}
+
+#service-part .web-design-and-dev:hover .web-design-paragraph p{
+    color: #E6E5F3;;
+}
+
+/* ################################################## */
+
+#service-part .web-design-and-dev .web-design-anchor a{
+    font-family: 'Open Sans', sans-serif;    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #141135;
+    padding: 8px 10px;
+    border-radius: 100px;
+    position: relative;
+    z-index: 1;
+    transition: all linear 0.4s;
+    overflow: hidden;
+}
+
+#service-part .web-design-and-dev:hover .web-design-anchor a{
+    color: #F4F4F5;
+}
+
+#service-part .web-design-and-dev .web-design-anchor a::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 90px;
+    width: 100%;
+    height: 100%;
+    background: rgba(16, 45, 2, 0.3);
+    border-radius: 0px 100px 100px 0px;
+    z-index: -1;
+    transition: all linear 0.4s;
+}
+
+#service-part .web-design-and-dev .web-design-anchor a:hover::after{
+    left: 0px;
+}
+
+
+/* ################################################## */
+
+
+/* ======= SERVICE CSS END ========= */
+/* ======= SERVICE CSS END ========= */
+
+
+
+
+
+/* ======= IMPACT CSS START ======= */
+/* ======= IMPACT CSS START ======= */
+/* ======= IMPACT CSS START ======= */
+/* ======= IMPACT CSS START ======= */
+/* ======= IMPACT CSS START ======= */
+
+#real-impact{
+    padding-top: 91px;
+    /* padding-bottom: 100px; */
+}
+
+#real-impact .impact-title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+#real-impact .impact-title p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+    color: #726E9E;
+    width: 560px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.impact-title{
+    padding-bottom: 75px;
+}
+
+/* ################################################## */
+
+.nasted-one .analysis-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    width: 325px;
+}
+
+.nasted-one .analysis-text p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    color: #726E9E;
+    width: 343px;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+/* ################################################## */
+
+.nasted-two .strategy-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.nasted-two .strategy-text p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    color: #726E9E;
+    width: 310px;
+    line-height: 30px;
+    padding-top: 15px;
+}                                           
+
+/* ################################################## */
+
+/* ======= IMPACT CSS END ========= */
+/* ======= IMPACT CSS END ========= */
+
+
+
+
+
+/* ======= RIGHT PLAN CSS START ======= */
+/* ======= RIGHT PLAN CSS START ======= */
+/* ======= RIGHT PLAN CSS START ======= */
+/* ======= RIGHT PLAN CSS START ======= */
+/* ======= RIGHT PLAN CSS START ======= */
+
+
+#right-plan .background{
+    background: #F9F9FB;
+    width: 100%;
+    height: 890px;
+}
+
+#right-plan .plan-title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #141135;
+    line-height: 65px;
+    padding-top: 100px;
+}
+
+/* ################################################## */
+
+#right-plan .basic-details{
+    background: #FFFFFF;
+    width: 370px;
+    height: 560px;
+    box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.15);
+    border-radius: 20px;
+    transition: all linear 0.4s;
+}
+
+#right-plan .basic-details:hover{
+    background: #6B62C5;
+}
+
+/* ################################################## */
+
+
+#right-plan .basic-details .basic-title-one h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #141135;
+    padding-top: 60px;
+    padding-bottom: 26px;
+    transition: all linear 0.4s;
+}
+
+#right-plan .basic-details:hover .basic-title-one h4{
+    color: #FAFAFE;
+}
+
+#right-plan .basic-details .basic-title-one img{
+    padding-bottom: 20px;
+}
+
+/* ################################################## */
+
+#right-plan .basic-details .basic-title-two .title-two-img-flex{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+#right-plan .basic-details .basic-title-two .title-two-img-flex h4{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    color: #1BBF00;
+    transition: all linear 0.4s;
+}
+
+#right-plan .basic-details:hover .basic-title-two .title-two-img-flex h4{
+    color: #1DD000;
+}
+
+#right-plan .basic-details .basic-title-two p{
+        font-family: 'Paprika', cursive;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #726E9E;
+        width: 203px;
+        margin: 0 auto;
+        padding-top: 12px;
+        transition: all linear 0.4s;
+}
+
+#right-plan .basic-details:hover .basic-title-two p{
+    color: #E6E5F3;
+}
+
+/* ################################################## */
+
+#right-plan .professional-details{
+    background: #FFFFFF;
+    width: 370px;
+    height: 560px;
+    box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.15);
+    border-radius: 20px;
+    transition: all linear 0.4s;
+}
+
+#right-plan .professional-details:hover{
+    background: #6B62C5;
+}
+
+
+#right-plan .professional-details .professional-title-one h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #141135;
+    padding-top: 60px;
+    padding-bottom: 26px;
+    transition: all linear 0.4s;
+}
+
+#right-plan .professional-details:hover .professional-title-one h4{
+    color: #FAFAFE;;
+}
+
+#right-plan .professional-details .professional-title-one img{
+    padding-bottom: 20px;
+}
+
+
+#right-plan .professional-details .professional-title-two .title-two-img-flex{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+#right-plan .professional-details .professional-title-two .title-two-img-flex h4{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    color: #1BBF00;
+    transition: all linear 0.4s;
+}
+
+#right-plan .professional-details:hover .professional-title-two .title-two-img-flex h4{
+    color: #1DD000;
+}
+
+#right-plan .professional-details .professional-title-two p{
+        font-family: 'Paprika', cursive;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #726E9E;
+        width: 203px;
+        margin: 0 auto;
+        padding-top: 12px;
+        transition: all linear 0.4s;
+}
+
+#right-plan .professional-details:hover .professional-title-two p{
+    color: #E6E5F3;
+}
+
+/* ################################################## */
+
+
+
+#right-plan .exclusive-details{
+    background: #FFFFFF;
+    width: 370px;
+    height: 560px;
+    box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.15);
+    border-radius: 20px;
+    transition: all linear 0.4s;
+}
+
+#right-plan .exclusive-details:hover{
+    background: #6B62C5;
+}
+
+
+#right-plan .exclusive-details .exclusive-title-one h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #141135;
+    padding-top: 60px;
+    padding-bottom: 26px;
+}
+
+#right-plan .exclusive-details:hover .exclusive-title-one h4{
+    color: #FAFAFE;;
+}
+
+#right-plan .exclusive-details .exclusive-title-one img{
+    padding-bottom: 20px;
+}
+
+
+#right-plan .exclusive-details .exclusive-title-two .title-two-img-flex{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+#right-plan .exclusive-details .exclusive-title-two .title-two-img-flex h4{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    color: #1BBF00;
+    transition: all linear 0.4s;
+}
+
+#right-plan .exclusive-details:hover .exclusive-title-two .title-two-img-flex h4{
+    color: #1DD000;
+}
+
+#right-plan .exclusive-details .exclusive-title-two p{
+        font-family: 'Paprika', cursive;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #726E9E;
+        width: 203px;
+        margin: 0 auto;
+        padding-top: 12px;
+        transition: all linear 0.4s;
+}
+
+#right-plan .exclusive-details:hover .exclusive-title-two p{
+    color: #E6E5F3;
+}
+
+/* ################################################## */
+
+/* ======= RIGHT PLAN CSS END ========= */
+/* ======= RIGHT PLAN CSS END ========= */
+
+
+
+
+
+/* ======= PEOPLE THINK CSS START ======= */
+/* ======= PEOPLE THINK CSS START ======= */
+/* ======= PEOPLE THINK CSS START ======= */
+/* ======= PEOPLE THINK CSS START ======= */
+/* ======= PEOPLE THINK CSS START ======= */
+
+#people-think{
+    background: #F8F8FF;
+    padding: 100px 0px;
+    position: relative;
+}
+
+/* ################################################## */
+
+
+.circle-right{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top: 55%;
+    right: 130px;
+}
+
+.circle-right .right-icon i{
+    position: absolute;
+    top: 17px;
+    right: 18px;
+}
+
+.circle-left{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top: 55%;
+    left: 130px;
+}
+
+.circle-left .left-icon i{
+    position: absolute;
+    top: 17px;
+    left: 16px;
+}
+
+/* ################################################## */
+
+#people-think .think-details{
+    background: #FFFFFF;
+    box-shadow: -15px 30px 50px rgba(171, 175, 199, 0.301961);
+    border-radius: 20px;
+    padding-top: 120px;
+    padding-bottom: 55px;
+}
+
+/* ################################################## */
+
+
+#people-think .think-title h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 150px;
+    color: #141135
+}
+
+/* ################################################## */
+
+#people-think .think-img{
+    position: relative;
+}
+
+#people-think .think-img img{
+    position: absolute;
+    top: -200px;
+    left: 48%;
+    transform: translateX(-50%);
+}
+
+/* ################################################## */
+
+.think-stars .star-icon{
+    padding-right: 22px;
+}
+
+.think-stars .star-icon i{
+    padding-top: 35px;
+    padding-bottom: 34px;
+    padding-left: 7px;
+}
+
+
+#people-think .think-text p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #726E9E;
+    line-height: 40px;
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+#people-think .thinker-profile h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #221A2C;
+    padding-bottom: 4px;
+}
+
+#people-think .thinker-profile p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #726E9E;
+}
+
+/* ################################################## */
+
+
+/* ======= PEOPLE THINK CSS END ========= */
+/* ======= PEOPLE THINK CSS END ========= */
+
+
+
+
+
+
+/* ======= LIKE CSS START ======= */
+/* ======= LIKE CSS START ======= */
+/* ======= LIKE CSS START ======= */
+/* ======= LIKE CSS START ======= */
+/* ======= LIKE CSS START ======= */
+
+#like{
+    width: 100%;
+    height: 1111px;
+}
+
+#like .title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #030314;
+    letter-spacing: -2px;
+    padding-top: 100px;
+    padding-bottom: 65px;
+}
+
+/* ################################################## */
+
+#like .one-img img{
+    width: 380px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+#like .one-text .news-flex{
+    display: flex;
+    align-items: baseline;
+}
+
+#like .one-text .news-flex p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1BBF00;
+    letter-spacing: -1px;
+}
+
+#like .one-text ul{
+    display: flex;
+}
+
+#like .one-text ul li{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #726E9E;
+    line-height: 25px;
+    padding-left: 35px;
+}
+
+#like .one-text h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    color: #141135;
+    letter-spacing: -1.5px;
+    width: 504px;
+}
+
+#like .one-text a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #141135;
+    line-height: 24px;
+    padding: 10px 10px;
+    border-radius: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+#like .one-text a::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 60px;
+    background: rgba(25, 191, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    border-radius: 0 100px 100px 0;
+    transition: all linear 0.4s;
+}
+
+#like .one-text a:hover:after{
+    left: 0px;
+}
+
+/* ################################################## */
+
+#like .two-img img{
+    width: 380px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+#like .two-text .news-flex{
+    display: flex;
+    align-items: baseline;
+}
+
+#like .two-text .news-flex p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1BBF00;
+    letter-spacing: -1px;
+}
+
+#like .two-text ul{
+    display: flex;
+}
+
+#like .two-text ul li{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #726E9E;
+    line-height: 25px;
+    padding-left: 35px;
+}
+
+#like .two-text h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    color: #141135;
+    letter-spacing: -1.5px;
+    width: 504px;
+}
+
+#like .two-text a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #141135;
+    line-height: 24px;
+    padding: 10px 10px;
+    border-radius: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+#like .two-text a::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 60px;
+    background: rgba(25, 191, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    border-radius: 0 100px 100px 0;
+    transition: all linear 0.4s;
+}
+
+#like .two-text a:hover:after{
+    left: 0px;
+}
+
+/* ################################################## */
+
+#like .three-img img{
+    width: 380px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+#like .three-text .news-flex{
+    display: flex;
+    align-items: baseline;
+}
+
+#like .three-text .news-flex p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1BBF00;
+    letter-spacing: -1px;
+}
+
+#like .three-text ul{
+    display: flex;
+}
+
+#like .three-text ul li{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #726E9E;
+    line-height: 25px;
+    padding-left: 35px;
+}
+
+#like .three-text h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    color: #141135;
+    letter-spacing: -1.5px;
+    width: 504px;
+}
+
+#like .three-text a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #141135;
+    line-height: 24px;
+    padding: 10px 10px;
+    border-radius: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+#like .three-text a::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 60px;
+    background: rgba(25, 191, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    border-radius: 0 100px 100px 0;
+    transition: all linear 0.4s;
+}
+
+#like .three-text a:hover:after{
+    left: 0px;
+}
+
+
+/* ======= LIKE CSS END ========= */
+/* ======= LIKE CSS END ========= */
+
+
+
+
+
+
+/* ======= FOOTER CSS START ======= */
+/* ======= FOOTER CSS START ======= */
+/* ======= FOOTER CSS START ======= */
+/* ======= FOOTER CSS START ======= */
+/* ======= FOOTER CSS START ======= */
+
+#footer{
+    background: #48409C;
+    padding-top: 140px;
+    padding-bottom: 57px;
+}
+
+/* ################################################## */
+
+#footer .part-one-logo img{
+    padding-bottom: 44px;
+}
+
+#footer .one-text-first p{
+    font-family: 'Nunito Sans', sans-serif;    
+    font-weight: 400;
+    font-size: 18px;
+    color: #FEFEFE;
+    line-height: 180%;
+    text-transform: capitalize;
+    width: 450px;
+}
+
+#footer .one-text-second p{    
+    color: #FEFEFE;
+    opacity: 0.8999999761581421;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+    padding-top: 190px;
+}
+
+/* ################################################## */
+
+
+#footer .feature-group{
+    color: #FEFEFE;
+}
+
+#footer .feature-group h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 18px;
+}
+
+#footer .feature-group p{
+    color: #FEFEFE;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+/* ################################################## */
+
+#footer .product-group{
+    color: #FEFEFE;
+}
+
+#footer .product-group h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 18px;
+}
+
+#footer .product-group p{
+    color: #FEFEFE;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.policy p{
+    color: #FEFEFE;
+    opacity: 0.8999999761581421;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+    padding-top: 180px;
+    padding-left: 60%;
+}
+
+/* ################################################## */
+
+#footer .support-group{
+    color: #FEFEFE;
+}
+
+#footer .support-group h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 18px;
+}
+
+#footer .support-group p{
+    color: #FEFEFE;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.terms p{
+    color: #FEFEFE;
+    opacity: 0.8999999761581421;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+    padding-top: 180px;
+}
+
+/* ======= FOOTER CSS END ========= */
+/* ======= FOOTER CSS END ========= */
